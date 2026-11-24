@@ -31,10 +31,7 @@ public class Cine {
             gestion = (GestionReserva) datos.get(1);
             
             ArrayList<Funcion> funcionesGuardadas = gestionFuncion.getFuncion();
-            
-            funcion1 = funcionesGuardadas.get(0);
-            
-            System.out.println("Datos anteriores recuperados");
+
         }else{
             Pelicula pelicula1 = new Pelicula("Rapidos y furiosos", 106);
             Pelicula pelicula2 = new Pelicula("Obsesion", 105);
@@ -59,8 +56,7 @@ public class Cine {
             
             System.out.println("Se crearon lis primeros datos");
         }
-        ArrayList<Funcion> funciones = gestionFuncion.getFuncion();
-        
+        ArrayList<Funcion> funciones = gestionFuncion.getFuncion();       
         System.out.println("|| Bienvenido a nuestro cine! ||");
 
         do {

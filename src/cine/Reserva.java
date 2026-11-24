@@ -19,7 +19,10 @@ public class Reserva implements Serializable{
             throw new IllegalArgumentException("El codigo debe ser mayor a 0");
         }
         if(cliente == null){
-            throw new IllegalArgumentException("La reserva debe tener una funcion ");
+            throw new IllegalArgumentException("La reserva debe tener un cliente");
+        }
+        if(funcion == null){
+            throw new IllegalArgumentException("La reserva debe tener una funcion");
         }
         
         
