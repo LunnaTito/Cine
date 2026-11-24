@@ -1,0 +1,14 @@
+--------- Reservas del cine -----------
+
+Codigo: 1
+Cliente: lulu
+Pelicula: Rapidos y furiosos
+Estado: Cancelada
+Total: $12000.0
+
+Codigo: 2
+Cliente: lulu
+Pelicula: Obsesion
+Estado: Activa
+Total: $12000.0
+
