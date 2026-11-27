@@ -761,9 +761,7 @@ public class VentanaPrincipal extends Application{
 
         for(int i = 0; i < reservas.size(); i++){
             Reserva reserva = reservas.get(i);
-            if(opcion == 1 || 
-               (opcion == 2 && reserva.isActiva()) ||
-               (opcion == 3 && reserva.isActiva() == false)){
+            if(opcion == 1 || (opcion == 2 && reserva.isActiva()) || (opcion == 3 && reserva.isActiva() == false)){
 
                 encontroReservas = true;
                 String estado;
