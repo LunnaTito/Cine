@@ -40,10 +40,10 @@ public class Cine {
             Sala sala1 = new Sala(1, 10);
             Sala sala2 = new Sala(2, 12);
             
-            funcion1 = new Funcion(pelicula1, sala1, LocalDate.of(2026, 11, 25), LocalTime.of(20, 0), 8000);
-            Funcion funcion2 = new Funcion(pelicula2, sala2, LocalDate.of(2026, 11, 25), LocalTime.of(22, 0), 8000);
-            Funcion funcion3 = new Funcion(pelicula1, sala1, LocalDate.of(2026, 11, 25), LocalTime.of(23, 0), 8000);
-            Funcion funcion4 = new Funcion(pelicula3, sala2, LocalDate.of(2026, 11, 25), LocalTime.of(18,0), 8000);
+            funcion1 = new Funcion(pelicula1, sala1, LocalDate.of(2026, 11, 28), LocalTime.of(20, 0), 8000);
+            Funcion funcion2 = new Funcion(pelicula2, sala2, LocalDate.of(2026, 11, 28), LocalTime.of(22, 0), 8000);
+            Funcion funcion3 = new Funcion(pelicula1, sala1, LocalDate.of(2026, 11, 28), LocalTime.of(23, 0), 8000);
+            Funcion funcion4 = new Funcion(pelicula3, sala2, LocalDate.of(2026, 11, 28), LocalTime.of(18,0), 8000);
             
             gestionFuncion = new GestionFuncion();
             

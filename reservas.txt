@@ -1,14 +1,32 @@
 --------- Reservas del cine -----------
 
 Codigo: 1
-Cliente: lulu
-Pelicula: Rapidos y furiosos
-Estado: Cancelada
-Total: $12000.0
-
-Codigo: 2
-Cliente: lulu
+Cliente: fer
 Pelicula: Obsesion
 Estado: Activa
-Total: $12000.0
+Total: $18000.0
+
+Codigo: 2
+Cliente: caro
+Pelicula: Obsesion
+Estado: Activa
+Total: $6000.0
+
+Codigo: 3
+Cliente: Luna 
+Pelicula: Obsesion
+Estado: Cancelada
+Total: $18000.0
+
+Codigo: 4
+Cliente: Camila
+Pelicula: Obsesion
+Estado: Activa
+Total: $16000.0
+
+Codigo: 5
+Cliente: Luna
+Pelicula: Obsesion
+Estado: Activa
+Total: $6000.0
 

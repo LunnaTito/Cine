@@ -52,6 +52,7 @@ public class Reserva implements Serializable{
     public Entrada entrada(){
         return entrada;
     }
+    
     public void agregarAsiento(Asiento asiento){
         if(asiento.isDisponible()){
             asientos.add(asiento);

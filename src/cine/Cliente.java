@@ -9,8 +9,8 @@ public class Cliente implements Serializable{
     private String dni;
     
     public Cliente(String nombre, String dni){
-        this.setDni(dni);
         this.setNombre(nombre);
+        this.setDni(dni);
     }
     
     public String getNombre(){
@@ -21,11 +21,14 @@ public class Cliente implements Serializable{
     }
     
     public void setNombre(String nombre){
-        if(nombre == null && nombre.isBlank()){
+        if(nombre == null || nombre.isBlank()){
             throw new IllegalArgumentException("El nombre no puede estar vacio");
         }
         if (nombre.length() > 20){
             throw new IllegalArgumentException("El nombre no puede superar los 20 caracteres");
+        }
+        if(nombre.contains("0") || nombre.contains("1") || nombre.contains("2") || nombre.contains("3") || nombre.contains("4") || nombre.contains("5") || nombre.contains("6") || nombre.contains("7") || nombre.contains("8") || nombre.contains("9")){
+            throw new IllegalArgumentException("El nombre no puede contener numeros");
         }
         this.nombre = nombre;
     }
